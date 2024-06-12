@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+nav{
+    background-color: rgb(2, 36, 26);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 4px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+ul{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+ul li:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.container h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+table, thead, tr, tbody, td{
+    background-color: rgb(18, 18, 18);
+    border: 2px solid grey;
+    padding: 5px 10px;
+    border-collapse: collapse;
+    color: white;
+}
+
+.btn-primary{
+    background-color: rgb(5, 126, 98);
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.btn-primary:hover{
+    background-color:rgb(14, 116, 97);
+    font-weight: 900;
+}
+
+.btnsm{
+    background-color: rgb(18, 126, 117);
+    color: rgb(255, 250, 250);
+    padding: 5px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.btnsm:hover{
+    background-color: rgb(17, 99, 85);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+img{
+    cursor: pointer;
+}
+
+.alert{
+    display: none;
+    background-color: rgb(10, 113, 98);
+    color: rgb(78, 74, 74);
+    margin: 0px 0px 12px;
+    padding: 6px 6px;
+}
