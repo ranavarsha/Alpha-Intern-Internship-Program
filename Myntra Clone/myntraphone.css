@@ -1,0 +1,99 @@
+@media (max-width: 1260px){
+    header{
+        /* border: 2px solid black; */
+        height: 100px;
+        /* border: 2px solid red; */
+    }
+    nav ul{
+        align-content: center;
+        justify-content: center;
+        margin-left: -30px;
+    }
+    nav ul li {
+        padding: 0px 10px;
+        font-size: 13px;
+    }
+    .left{
+        margin: 0;
+    }
+    .container{
+        /* border: 2px solid red; */
+        width: 125%;
+        position:absolute;
+    }
+    nav{
+        flex-direction: column;
+        /* margin-left: -300px; */
+    }
+
+    #leftflex{
+        margin-bottom: 5px;
+    }
+    .right{
+        flex-direction: column;
+    }
+    
+    .input{
+        /* font-size: 8px; */
+        width: 300px;
+    }
+
+    .logoicons{
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+
+    .rightsearchbar{
+        margin-left: -30px;
+    }
+
+    .section2{
+        margin-top: 210px;
+    }
+    .invite{
+        display: none;
+    }
+    .home{
+        width: 187%;
+        margin-left: 70px;
+    }
+    .list1{
+        margin-left: -40px;
+    }
+    .list3{
+        margin-left: -40px;
+    }
+    .list4{
+        margin-left: -93px;
+    }
+    .searches{
+        margin-left: -28px;
+    }
+    .searchcontent{
+        margin-left: -28px;
+        margin-right: 38px;
+    }
+    .end{
+        margin-left: -28px;
+    }
+    .copyright{
+        margin-left: 0px;
+    }
+ 
+}
+@media (max-width: 569px){
+    #logomain{
+        margin: auto;
+        margin-bottom: -15px;
+    }
+    header{
+        height: 210px;
+    }
+    .section2{
+        margin-top: 220px;
+    }
+}
+@media (min-width: 768px){
+.home{
+    margin-left: 100px;
+}}
