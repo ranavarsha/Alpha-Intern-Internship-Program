@@ -1,28 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
+    margin: 60px;
+    margin-right: 220px;
+    margin-left: 550px;
     text-align: center;
+    align-items: right;
     background-image: url(bg.jpg);
     font-family: 'Poppins', sans-serif;
 }
 
 h1 {
+    text-align: center;
     color: #F5F5F5;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 table {
     margin: auto;
+    
 }
 
 th {
-    color: #FFFFFF;
+    color: #FFFFFF
+    
 }
 
 input {
     font-size: 20px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
+   
 }
 
 button {
@@ -30,14 +38,16 @@ button {
     margin: 20px 10px;
     padding: 10px;
     font-size: 20px;
-    background-color: #FFFFFF;
+   background-color: #F5F5F5;
     border-radius: 5px;
     font-weight: 600;
+   
 }
 
 .countdown {
     display: flex;
     justify-content: center;
+    
 }
 
 .heading {
@@ -47,9 +57,10 @@ button {
 }
 
 .time {
-    background-color: #292424;
-    color: #FFFFFF;
-    font-size: 100px;
-    width: 150px;
+    background-image: url(time-bg.jpg);
+    color: #000000;
+    font-size: 80px;
+    width: 100px;
     margin: 0 10px;
+
 }
