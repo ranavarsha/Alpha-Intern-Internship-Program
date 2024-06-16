@@ -3,17 +3,17 @@
 body {
     margin: 60px;
     margin-right: 220px;
-    margin-left: 550px;
+    margin-left: 220px;
     text-align: center;
-    align-items: right;
-    background-image: url(bg.jpg);
+    align-items: center;
+    background-image: url(bg.jpeg);
     font-family: 'Poppins', sans-serif;
 }
 
 h1 {
     text-align: center;
     color: #F5F5F5;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 table {
