@@ -36,6 +36,19 @@ nav ul li {
     font-size: 13px;
 }
 
+.Studio{
+    position: relative;
+}
+
+.Studio span{
+    position: absolute;
+    bottom: 0;
+    color:rgb(186, 30, 77);
+    top: -5px;
+    left: 61px;
+    font-size: 11px;
+}
+
 .right {
     margin-top: 17px;
     margin-left: 25px;
@@ -60,7 +73,7 @@ button{
 }
 .input {
     height: 34px;
-    width: 340px;
+    width: 280px;
     padding-top: 3px;
     font-size: 13px;
     outline: none;
